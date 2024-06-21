@@ -7,7 +7,7 @@ alphaBanner.insertAdjacentHTML('afterbegin', '<section class="experimental alpha
 //Renders search disabled
 $('#wb-srch-sub').attr("disabled", true);
 
-Separate script to null all canada.ca links to a 404 page (including GC menu) and redirect some in menu
+//Separate script to null all canada.ca links to a 404 page (including GC menu) and redirect some in menu
 $( ".gcweb-menu" ).on( "wb-ready.gcweb-menu", function( event ) {
 	$("a[href='https://www.canada.ca/en/services/taxes.html']").attr("href", "https://cra-proto.github.io/sign-in-test/en/services/taxes.html").addClass("prototype");
 	$("a[href='https://www.canada.ca/en/services/taxes/income-tax.html']").attr("href", "https://cra-proto.github.io/sign-in-test/en/services/taxes/income-tax.html").addClass("prototype");
