@@ -21,7 +21,7 @@ $( document ).on( "wb-ready.wb", function( event ) {
 	
 	$("a[href*='canada.ca']").attr("href", "https://cra-proto.github.io/sign-in-test/404.html");
 $("a[href*='.gc.ca/']").attr("href", "https://cra-proto.github.io/sign-in-test/404.html");
-$("#chat-bottom-bar, #gc-pft, .pagedetails details").addClass(hidden");	
+$("#chat-bottom-bar, #gc-pft, .pagedetails details").addClass("hidden");	
 });
 
 //Remove visited link design from 404 pages
