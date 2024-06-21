@@ -17,7 +17,12 @@ $( ".gcweb-menu" ).on( "wb-ready.gcweb-menu", function( event ) {
 });
 
 //Separate script to null all canada.ca links to a 404 page
-$( document ).on( "wb-ready.wb", function( event ) {$("a[href*='canada.ca']").attr("href", "https://cra-proto.github.io/sign-in-test/404.html");});
+$( document ).on( "wb-ready.wb", function( event ) {
+	
+	$("a[href*='canada.ca']").attr("href", "https://cra-proto.github.io/sign-in-test/404.html");
+$("a[href*='.gc.ca/']").attr("href", "https://cra-proto.github.io/sign-in-test/404.html");
+$("#chat-bottom-bar, #gc-pft, .pagedetails details").addClass(hidden");	
+});
 
 //Remove visited link design from 404 pages
 var visited_link_styling = "<style> a[href='https://cra-proto.github.io/sign-in-test/404.html']:visited{ color:#284162; } </style>"; $('head').append( visited_link_styling );
