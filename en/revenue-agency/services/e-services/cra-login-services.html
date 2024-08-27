@@ -222,61 +222,111 @@
   </section>
   <div class="well brdr-0 brdr-rds-0">
     <section class="container">
-      <h2 class="mrgn-tp-0">Help centre</h2>
+       <h2 class="mrgn-tp-0">Help centre</h2>
  <h3 class="h5 wb-inv">Common issues</h3>
       <div class="row">
         <div class="col-sm-6">
-           <details id="ajax-forgotten-password-userID">
-             <summary>You forgot your CRA user ID or password</summary>
+        <!--  <details>
+            <summary>Forgotten password or CRA user ID</summary>
+            <!--This is the same for MyA, MyBA, and RAC but not Candidiate profile-->
+          <!--  <h4 class="h5">Forgotten password</h4>
+            <p>If you have forgotten your CRA password:</p>
+		  <ol class="">
+			  <li>Select your account</li>
+		  <li>Select <strong>CRA user ID and password</strong> from the sign-in options</li> 
+			  <li>Select <strong>Forgot your password?</strong></li></ol>
+            <p>You can create a new password if you correctly answer the security questions you chose when you registered.</p>
+            <h4 class="h5">Forgotten CRA user ID</h4>
+            <p>To recover your CRA user ID:
+		    <ol class="">
+			    <li>Select your account</li>
+		    <li>Select <strong>CRA user ID and password</strong> from the sign-in options</li>
+			    <li>Select <strong>Forgot your user ID?</strong></li></ol>
+            <p>You will need the following: </p>
+            <ul>
+              <li>Your social insurance number (SIN)</li>
+              <li>Your date of birth</li>
+              <li>The amount you entered on line 15000 of your income tax and benefit return from one of the 2 previous years</li>
+            </ul>
+            <p>The next time you sign in, you will need to answer 4 of your 5 CRA security questions.</p>
+		  <p><A href="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/about-cra-userID-password.html">More help with CRA user ID and password</a></p>
+          </details>-->
+
+ <details id="ajax-forgotten-password-userID">
+            <summary>You forgot your CRA user ID or password</summary>
            
 							      <section data-ajax-replace="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/about-cra-userID-password.html#ajax-recover-password-userID"></section>
 	  
-		  <p><A href="https://cra-proto.github.io/sign-in-prototype/en/revenue-agency/services/e-services/cra-login-services/about-cra-userID-password.html">More help with CRA user ID and password</a></p>
+		  <p><A href="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/about-cra-userID-password.html">More help with CRA user ID and password</a></p>
           </details>
-
-         <details id="ajax-did-not-receive-passcode"><summary>You did not receive your one-time passcode</summary>
+		
+        <!--  <details>
+            <summary>Did not receive one-time passcode</summary>
+            <!--h4 class="h5">One-time passcode by phone</h4-->
+          <!--  <p class="mrgn-tp-md">Multi-factor authentication (MFA) increases the security of your account by requiring you to enter a one-time passcode each time you sign in. </p>
+            <h3 class="h5">One-time passcode by phone</h3>
+            <p>If you cannot receive your one-time passcode by phone, you can:</p>
+            <ul>
+              <li>Ask for it to be resent or sent to a different telephone number that is already enrolled</li>
+              <li>Select <strong>different option</strong> to use the passcode grid or authenticator app if you are already enrolled with either of those options</li>
+		    <li>Confirm that you are signing in to <strong>your</strong> account, and make sure autofill is turned off or direct sign-in is disabled (for example, through your financial institution)</li>
+            </ul>
+            <h3 class="h5">One-time passcode by passcode grid</h3>
+            <p>If you lose your passcode grid or it expires, you will still be able to sign in if you have also added the phone or authenticator app option for MFA.</p>
+		  <h3 class="h5">Time-based one-time passcode by authenticator app</h3>
+            <p>If you can't access your authenticator app, you will still be able to sign in if you have also added the phone or passcode grid option for MFA.</p>
+            <h3 class="h5">When to contact us</h3>
+            <p>If you still cannot receive your one-time passcode, you will have to <a href="/sign-in-test/en/revenue-agency/corporate/contact-information.html#assistance">contact us by phone</a>.</p>
+            <p class="mrgn-tp-md"><a href="/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/multi-factor-authentication-access-cra-login-services.html">More help with multi-factor authentication</a></p>
+          </details>-->
+          
+		<details id="ajax-did-not-receive-passcode"><summary>You did not receive your one-time passcode</summary>
 			<h3 class="h5">If you have a new phone number</h3>
-			<p>If you can no longer access your old phone number, and you have not already added your new phone number to your multi-factor authentication (MFA) options, you will have to <a href="/sign-in-test/en/revenue-agency/corporate/contact-information.html#assistance">contact us by phone</a>.</p>
+			<p>If you can no longer access your old phone number, and you have not already added your new phone number or another multi-factor authentication (MFA) option to your account, you will have to <a href="/sign-in-test/en/revenue-agency/corporate/contact-information.html#assistance">contact us by phone</a>.</p>
 			<h3 class="h5">Authenticator app and passcode grid</h3>
-			<p>If you have already added other MFA options to your account, you can select <strong>different option</strong> to use a third-party authenticator app or a passcode grid.</p>
+			<p>If you have already added other MFA options to your <!--account-->profile, you can select <strong>different option</strong> to use a third-party authenticator app or a passcode grid.</p>
 			 <h3 class="h5">When to contact us</h3>
             <p>If you still cannot receive your one-time passcode, you will have to <a href="/sign-in-test/en/revenue-agency/corporate/contact-information.html#assistance">contact us by phone</a>.</p>
 		            <p class="mrgn-tp-md"><a href="/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/multi-factor-authentication-access-cra-login-services.html">More help with multi-factor authentication</a></p>
 
 		</details>
-         <details id="ajax-expired-security-code">
+		<details id="ajax-expired-security-code">
             <summary>Your CRA security code expired</summary>
-            <p class="mrgn-tp-md">If your CRA security code expires, has been lost, or has not arrived after waiting 10 business days, you may choose instead to use the <i>Interac&reg</i> document verification service to validate your identity.</p>
+            <p class="mrgn-tp-md">If your CRA security code has expired, has been lost, or has not arrived after 10 business days, you may choose instead to use the document verification service to verify your identity.</p>
 		   <p>If you prefer to receive another CRA security code by mail, you can <a href="/sign-in-test/en/revenue-agency/corporate/contact-information.html#assistance">contact us by phone</a> to get a new one.</p>
           </details>
-		<details id="ajax-update-information">
+
+		<details id="ajax-change-information">
             <summary>Update your information with the CRA</summary>
-            <p class="mrgn-tp-md">Inform the CRA about changes to your direct deposit or contact information, such as address, phone number or name changes.</p>
-		   <p><a href="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/update-information.html">Update your information with the CRA</a></p>
+          <p>Inform the CRA about changes to your direct deposit or contact information, such as address, phone number or name changes.</p>
+			<a href="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/update-information.html">Update your information with the CRA</a>
           </details>
+
+		
         </div>
         <div class="col-sm-6">
           <details id="ajax-recover-locked-account">
             <summary>Your account is locked</summary>
-            		  <section data-ajax-replace="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/locked-account.html#ajax-account-locked"></section>
+		  <section data-ajax-replace="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/locked-account.html#ajax-account-locked"></section>
 
+         
           </details>
-           <details id="ajax-revoked">
-            <summary>Your CRA user ID and password was revoked</summary>
+          <details id="ajax-revoked">
+            <summary>Your CRA user ID and password have been revoked</summary>
             <p class="mrgn-tp-md">If your CRA user ID and password have been revoked, you can regain access to your account in either of the following ways:</p>
 			  
             <ul>
               <li>Use a different sign-in option</li>
              <!-- <li><a href="/sign-in-test/en/revenue-agency/services/e-services/digital-services-individuals/account-individuals/register.html">Register for a new CRA user ID</a></li>-->
-		    <li><a href="/sign-in-test/en/revenue-agency/corporate/contact-information.html#assistance">Contact us</a> to register with a new CRA user ID and password</li>
+		    <li><a href="/sign-in-test/en/revenue-agency/corporate/contact-information.html#assistance">Contact us by phone</a> to register with a new CRA user ID and password</li>
             </ul>
             <p><a href="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/about-cra-userID-password.html#section6">More help with revoked CRA user ID and password</a></p>
           </details>
-        <details id="ajax-change-sign-in-option">
+         <details id="ajax-change-sign-in-option">
             <summary>Change the option you sign in with</summary>
-          <p>If you registered with a <strong>provincial sign-in partner</strong>, you can also create a CRA user ID and password or use an <i>Interac</i> sign-in partner.</p>
-            <p>If you registered with a <strong>CRA user ID and password</strong>, you can sign in with your CRA user ID and password and <a href="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/about-cra-userID-password.html#section8">revoke your credential</a> so you can register with a different sign-in option.</p>
-		<p>If you registered with an <strong><i>Interac</i> sign-in partner</strong>, you can sign in to your current <i>Interac</i> sign-in partner and <a href="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/about-interac-partner.html#section4">switch to a different bank or credit union</a>.</p>    
+          <p>If you registered with a <strong>provincial partner</strong>, you can also create a CRA user ID and password or use a Sign-In Partner.</p>
+            <p>If you registered with a <strong>CRA user ID and password</strong>, you can sign in with your CRA user ID and password and <a href="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/about-cra-userID-password.html#section8">revoke your credential</a> so you can register with a different sign-in option or create a new CRA user ID and password.</p>
+		<p>If you registered with a <strong>Sign-In Partner</strong>, you can sign in to your current Sign-In Partner and <a href="https://cra-proto.github.io/sign-in-test/en/revenue-agency/services/e-services/cra-login-services/about-interac-partner.html#section4">switch to a different Sign-In Partner</a>.</p>    
 		  
           </details>
         </div>
